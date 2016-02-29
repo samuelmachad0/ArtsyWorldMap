@@ -11,14 +11,18 @@ public class Test {
 
 	public static void main(String[] args) throws JSONException {
 		
-		Connection con = new Connection();
+		Model m = new Model();
+		m.Results(URL);
+		String l;
+		
+		
 
 	
-		HashMap<String, ArrayList<String>> result = con.getData();
+		//HashMap<String, ArrayList<String>> result = con.getData();
 		
 		
-		System.out.println(result.get(0).getNext());
-		System.out.println(result.get(0).getName());
+		//System.out.println(result.get(0).getNext());
+		//System.out.println(result.get(0).getName());
 		
 	}
 	

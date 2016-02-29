@@ -5,6 +5,11 @@ public class Artist {
 	private String nome;
 	private String location;
 	
+	Artist(String n, String l){
+		nome = n;
+		location = l;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
